@@ -1,8 +1,14 @@
 import functions
 import time
+import streamlit as st
 
 URL = "https://programmer100.pythonanywhere.com/"
 DATA_STORE = 'data-temp.txt'
+
+st.title("Average World Temperature")
+st.subheader("By Ahmad Fauzan")
+st.divider()
+st.altair_chart()
 
 while True:
     scraped = functions.scrape(URL)

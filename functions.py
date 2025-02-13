@@ -23,6 +23,3 @@ def store(extracted, data_store):
 def read(extracted, data_store):
     with open(data_store, 'r') as file:
         return file.read()
-
-def send_mail():
-    print("Email berhasil dikirim!")
