@@ -1,4 +1,3 @@
-# main.py
 import functions
 import time
 import streamlit as st
